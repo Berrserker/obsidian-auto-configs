@@ -1,0 +1,9 @@
+{
+	"id": "obsidian-auto-configs",
+	"name": "Auto Configs",
+	"version": "0.1.0",
+	"minAppVersion": "1.5.0",
+	"description": "Device-specific plugin configs synced via Git: install, configure, inject secrets.",
+	"author": "sevatar",
+	"isDesktopOnly": true
+}

@@ -1,0 +1,20 @@
+{
+	"plugins": {
+		"obsidian-telegram-bot": {
+			"source": "github",
+			"repo": "owner/obsidian-telegram-bot",
+			"branch": "main"
+		},
+		"obsidian-calendar-sync": {
+			"source": "github",
+			"repo": "owner/obsidian-calendar-sync",
+			"branch": "main"
+		},
+		"dataview": {
+			"source": "community"
+		},
+		"templater-obsidian": {
+			"source": "community"
+		}
+	}
+}

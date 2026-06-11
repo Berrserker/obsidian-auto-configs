@@ -1,0 +1,42 @@
+{
+	"device": "macbook-work",
+	"description": "Рабочий MacBook — пример конфига",
+	"plugins": [
+		{
+			"id": "obsidian-telegram-bot",
+			"enabled": true,
+			"install": {
+				"source": "github",
+				"repo": "owner/obsidian-telegram-bot",
+				"branch": "main"
+			},
+			"settings": {
+				"notesFolder": "Telegram/notes",
+				"botToken": "${secret:telegram_bot_token}",
+				"ragApiKey": "${env:RAG_API_KEY}",
+				"mainDeviceId": "${device}"
+			}
+		},
+		{
+			"id": "obsidian-calendar-sync",
+			"enabled": true,
+			"install": {
+				"source": "github",
+				"repo": "owner/obsidian-calendar-sync",
+				"branch": "main"
+			},
+			"settings": {
+				"notesFolder": "Calendar",
+				"googleClientId": "${secret:google_client_id}",
+				"googleClientSecret": "${secret:google_client_secret}"
+			}
+		}
+	],
+	"app": {
+		"attachmentFolderPath": "attachments"
+	},
+	"corePlugins": {
+		"daily-notes": true,
+		"templates": true
+	}
+}

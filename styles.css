@@ -1,0 +1,19 @@
+.auto-configs-status {
+	margin-top: 1em;
+	padding: 0.75em;
+	border-radius: 6px;
+	background: var(--background-secondary);
+	font-size: 0.9em;
+}
+
+.auto-configs-status.ok {
+	border-left: 3px solid var(--color-green);
+}
+
+.auto-configs-status.warn {
+	border-left: 3px solid var(--color-orange);
+}
+
+.auto-configs-status.error {
+	border-left: 3px solid var(--color-red);
+}
