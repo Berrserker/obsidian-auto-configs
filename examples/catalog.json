@@ -2,12 +2,17 @@
 	"plugins": {
 		"obsidian-telegram-bot": {
 			"source": "github",
-			"repo": "owner/obsidian-telegram-bot",
+			"repo": "Berrserker/obsidian-telegram-bot",
 			"branch": "main"
 		},
 		"obsidian-calendar-sync": {
 			"source": "github",
-			"repo": "owner/obsidian-calendar-sync",
+			"repo": "Berrserker/obsidian-calendar-sync",
+			"branch": "main"
+		},
+		"obsidian-auto-script-worker": {
+			"source": "github",
+			"repo": "Berrserker/obsidian-auto-script-worker",
 			"branch": "main"
 		},
 		"dataview": {
